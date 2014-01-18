@@ -28,9 +28,11 @@ following tag to your config.xml; you will still have the INTERNET
 permission on your app, which PhoneGap requires.
 -->
   <preference name="permissions" value="none"/>
+  
 
   <!-- Customize your app and platform with the preference element. -->
   <preference name="phonegap-version" value="2.9.0" />
+ <preference name="splash-screen-duration" value="10000" />
   <!-- all: current version of PhoneGap -->
   <preference name="orientation" value="default" />
   <!-- all: default means both landscape and portrait are enabled -->
@@ -90,10 +92,10 @@ A list of available plugins are available at https://build.phonegap.com/docs/plu
     <icon src="images/Icon_72x72.png" gap:platform="android" gap:density="hdpi" />
     <icon src="images/Icon_96x96.png" gap:platform="android" gap:density="xhdpi" />
 
-    <gap:splash src="images/SplashScreen_240x320.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="images/SplashScreen_320x480.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="images/SplashScreen_480x800.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="images/SplashScreen_640x960.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="images/SplashScreen_240x320.jpg" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="images/SplashScreen_320x480.jpg" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="images/SplashScreen_480x800.jpg" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="images/SplashScreen_640x960.jpg" gap:platform="android" gap:density="xhdpi" />
 
 
   <!--<gap:splash src="res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
@@ -119,6 +121,7 @@ Otherwise, you can specify specific domains:
   <!--<access origin="http://127.0.0.1*"/>-->
   <!-- allow local pages -->
   <!--
+
 <access origin="http://phonegap.com" /> - allow any secure requests to http://phonegap.com/
 <access origin="http://phonegap.com" subdomains="true" /> - same as above, but including subdomains, such as http://build.phonegap.com/
 <access origin="http://phonegap.com" browserOnly="true" /> - only allows http://phonegap.com to be opened by the child browser.
