@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id = "com.vrindi.akbarrestaurantdemoapp"
+        id = "com.vrindi.akbarrestaurantapp"
         version = "1.0.0">
 
-  <name>Akbar ResturantDemo App</name>
+  <name>Akbar Resturant App</name>
 
   <description>
-   Akbar Resturant Demo Application website.
+   Akbar Resturant Application website.
   </description>
 
   <author href="http://vrindi.com" email="support@vrindi.com">
@@ -84,6 +84,7 @@ A list of available plugins are available at https://build.phonegap.com/docs/plu
   <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone" gap:role="background" />-->
 
   <!-- Define app splash screen for each platform. -->
+
     <icon src="images/Icon_36x36.png" gap:platform="android" gap:density="ldpi" />
     <icon src="images/Icon_48x48.png" gap:platform="android" gap:density="mdpi" />
     <icon src="images/Icon_72x72.png" gap:platform="android" gap:density="hdpi" />
@@ -93,6 +94,8 @@ A list of available plugins are available at https://build.phonegap.com/docs/plu
     <gap:splash src="images/SplashScreen_320x480.png" gap:platform="android" gap:density="mdpi" />
     <gap:splash src="images/SplashScreen_480x800.png" gap:platform="android" gap:density="hdpi" />
     <gap:splash src="images/SplashScreen_640x960.png" gap:platform="android" gap:density="xhdpi" />
+
+
   <!--<gap:splash src="res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
   <gap:splash src="res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
   <gap:splash src="res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
